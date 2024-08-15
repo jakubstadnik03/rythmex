@@ -1,0 +1,111 @@
+.menu .mn-sub {
+    display: none;
+}
+
+.menu .mn-has-sub:hover .mn-sub {
+    display: block;
+}
+
+.grid-sm-row{
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.grid-sm-row [class^="col-"]{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.grid-lg-row{
+    margin-left: -30px;
+    margin-right: -30px;
+}
+.grid-lg-row [class^="col-"]{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.block-bordered{
+    padding: 0 10%;
+}
+.grid-showcase .post-prev-img a:after{
+    content: "";
+    display:block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0, .09);
+}
+.intro-label-round{
+    z-index:1;
+    top: -10px;
+    right: -10px;
+}
+.grid-showcase-1 .post-prev-img img{
+    border: 12px solid #111;
+    border-radius: 9px;
+}
+.showcase-carousel{
+    padding: 0 5%;
+}
+.showcase-carousel .owl-item{
+    padding: 0 10px;
+}
+.mobile .owl-prev,
+.mobile.owl-next{    
+    -webkit-transition: 0 none !important;  
+    -moz-transition: 0 none !important;  
+     -ms-transition: 0 none !important;
+    -o-transition: 0 none !important;    
+    transition:0 none !important;  
+}
+.mobile .owl-prev:before,
+.mobile .owl-next:before{
+    opacity: 0.87;
+}
+.mobile .owl-prev:before,
+.mobile .owl-next:before{    
+    opacity: 0.6;
+}
+.mobile .owl-carousel .owl-prev{
+    opacity: 1;
+    left: -35px;
+}
+.mobile .owl-carousel .owl-next{
+    opacity: 1;
+    right: -35px;
+}
+
+.fluid-width-video-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.bg-video-wrapper {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+  }
+  .bg-video-overlay {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  video {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    transform: translate(-50%, -50%) !important;
+  }
