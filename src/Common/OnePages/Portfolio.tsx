@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import full1 from "../../assets/images/portfolio/full-project-1.jpg";
-import full3 from "../../assets/images/portfolio/full-project-3.jpg";
-
 import pro1 from "../../assets/img/deniz.jpg";
 import pro2 from "../../assets/img/spolecna-foto.jpg";
 import pro3 from "../../assets/img/adam.jpg";

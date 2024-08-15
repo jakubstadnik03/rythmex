@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-import logo from "../../assets/images/logo-white.png";
-
 const Topbar = () => {
   const [isTransparent, setIsTransparent] = useState(true);
 

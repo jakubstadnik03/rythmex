@@ -52,10 +52,7 @@ import GutterWideFiveCol from "../pages/Portfolio/Wide-Gutter/GutterWideFiveCol"
 import GutterWideBlackHover from "../pages/Portfolio/Wide-Gutter/GutterWideBlackHover";
 import MasonryTwoCol from "../pages/Portfolio/Masonry/MasonryTwoCol";
 import SingleOne from "../pages/Portfolio/Single/SingleOne";
-import SingleTwo from "../pages/Portfolio/Single/SingleTwo";
-import SingleThree from "../pages/Portfolio/Single/SingleThree";
-import SingleFour from "../pages/Portfolio/Single/SingleFour";
-import SingleFive from "../pages/Portfolio/Single/SingleFive";
+
 import ParallaxPage from "../pages/Portfolio/ParallaxPage";
 import PromoPage from "../pages/Portfolio/PromoPage";
 import LazyLoad from "../pages/Portfolio/LazyLoad";

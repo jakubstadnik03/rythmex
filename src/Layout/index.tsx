@@ -16,7 +16,6 @@ import Newsletter from "../Common/MainDemo/Newsletter";
 import NavBar2 from "./NavBar2";
 import PagesNavBar from "./PagesNavBar";
 import Topbar from "../pages/OnePage/Topbar";
-import { Link } from "react-router-dom";
 import Topbar2 from "../pages/OnePage/Topbar2";
 
 interface LayoutProps {
